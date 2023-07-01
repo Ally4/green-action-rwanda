@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div className="home">
-        <h1>Brigdeton: get your good</h1>
+        <h1>for</h1>
       </div>
     </>
   );
