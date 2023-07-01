@@ -55,6 +55,24 @@ nav {
     color: #fff;
     align-items: center;
   }
+
+
+.forest-image {
+  width: 100%;
+  height: 90%,
+}
+
+.auto-text {
+  color: #fff;
+  margin-top: -50%;
+  margin-left: -50%;
+}
+
+
+
+
+
+
   
   @media screen and (max-width: 769px) {
     #navbar {
