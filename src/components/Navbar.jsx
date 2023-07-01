@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "../styles/NavbarStyle.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Navbar extends Component {
 
@@ -19,19 +20,59 @@ class Navbar extends Component {
             <div>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a href="index.html" className="active">Home</a>
+                        {/* <a href="index.html" className="active">Home</a> */}
+                        <Link
+                            activeClass="active"
+                            // to="section1"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Home</Link>
                     </li>
                     <li>
-                        <a href='./Shop.jsx'>Shop</a>
+                        {/* <a href='./Shop.jsx'>Shop</a> */}
+                        <Link
+                            // activeClass="active"
+                            to="./Shop.jsx"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Shop</Link>
                     </li>
                     <li>
-                        <a href="index.html">Blog</a>
+                        {/* <a href="index.html">Blog</a> */}
+                        <Link
+                            // activeClass="active"
+                            to="./Blog.jsx"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Blog</Link>
                     </li>
                     <li>
-                        <a href="index.html">About</a>
+                        {/* <a href="index.html">About</a> */}
+                        <Link
+                            // activeClass="active"
+                            to="./About"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >About</Link>
                     </li>
                     <li>
-                        <a href="index.html">Contact</a>
+                        {/* <a href="index.html">Contact</a> */}
+                        <Link
+                            // activeClass="active"
+                            to="./Contact.jsx"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Contact</Link>
                     </li>
                 </ul>
             </div>
