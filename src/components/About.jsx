@@ -1,13 +1,13 @@
 import "../styles/Style.css";
 
-function Blog() {
+function About() {
   return (
     <>
       <div className="blog">
-        <h1>Blog</h1>
+        <h1>About</h1>
       </div>
     </>
   );
 }
 
-export default Blog;
+export default About;

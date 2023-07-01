@@ -1,5 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Home from './components/Home.jsx';
+import Blog from './components/Blog.jsx';
+import Shop from './components/Shop.jsx';
+import Contact from './components/About.jsx';
+import About from './components/Contact.jsx';
 import Navbar from './components/Navbar.jsx';
 import './App.css';
 
@@ -22,6 +26,10 @@ function App() {
       </header> */}
       <Navbar />
       <Home />
+      <Blog />
+      <Contact />
+      <Shop />
+      <About />
     </div>
   );
 }

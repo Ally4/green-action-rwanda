@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./NavbarStyle.css";
+import "../styles/NavbarStyle.css";
 
 class Navbar extends Component {
 
@@ -22,7 +22,7 @@ class Navbar extends Component {
                         <a href="index.html" className="active">Home</a>
                     </li>
                     <li>
-                        <a href="index.html">Shop</a>
+                        <a href='./Shop.jsx'>Shop</a>
                     </li>
                     <li>
                         <a href="index.html">Blog</a>

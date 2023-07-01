@@ -1,4 +1,4 @@
-import "./HomeStyle.css";
+import "../styles/Style.css";
 
 function Shop() {
   return (
