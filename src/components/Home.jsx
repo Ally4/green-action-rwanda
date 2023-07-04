@@ -31,8 +31,13 @@ function Home() {
     <div>
       <div >
         <div className="image">
-        <div >
+        <div className="text">
           <h2 className="auto-text">{text}</h2>
+        </div>
+        <div className="text1">
+          <h2 className="auto-text">“We are the first generation to feel the impact of climate change, and the last generation that can do something about it.”Pres. Barack Obama at the first COP21
+
+</h2>
         </div>
         </div>
       </div>

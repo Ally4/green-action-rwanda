@@ -13,11 +13,29 @@
   background-image: url('./../photos/forest.jpg');
   width: 100%;
   height: 84vh;
+  display: flex;
+  align-items: center;
 }
 
 .auto-text {
-  font-size: large;
+  font-size: 50px;
   color: white;
+  margin-left: 10px;
+}
+
+.text {
+  width: 50%;
+  height: 100%;
+  background-color: #0000005d;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .home-v {
