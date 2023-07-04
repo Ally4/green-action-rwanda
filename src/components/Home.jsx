@@ -6,7 +6,7 @@ function Home() {
     <div>
       <div >
         <div className="image">
-
+    
         </div>
       </div>
       <div className="home-v">

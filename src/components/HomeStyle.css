@@ -10,7 +10,9 @@
   }
 
 .image {
-  
+  background-image: url('./../photos/forest.jpg');
+  width: 100%;
+  height: 84vh;
 }
 
 .home-v {
@@ -26,7 +28,7 @@
   
 .vision {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -65,7 +67,7 @@
 
 .problem {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -127,7 +129,7 @@
 
 .solution {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -188,7 +190,7 @@
 
 .business {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -228,7 +230,7 @@
 
 .traction {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
@@ -256,7 +258,7 @@
 
 .team {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
