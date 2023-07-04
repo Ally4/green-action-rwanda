@@ -1,12 +1,39 @@
 import "./HomeStyle.css";
+import React, { useState, useEffect } from 'react';
 
 function Home() {
+
+
+  const [text, setText] = useState('');
+  const fullText = 'What are we waiting for to save the plane?.';
+  const delay = 100; // Delay between each character in milliseconds
+
+  useEffect(() => {
+    let currentText = '';
+    let currentIndex = 0;
+
+    const interval = setInterval(() => {
+      if (currentIndex === fullText.length) {
+        clearInterval(interval);
+      } else {
+        currentText += fullText.charAt(currentIndex);
+        setText(currentText);
+        currentIndex++;
+      }
+    }, delay);
+
+    return () => clearInterval(interval);
+  }, []);
+
+
   return (
     <>
     <div>
       <div >
         <div className="image">
-    
+        <div >
+          <h2 className="auto-text">{text}</h2>
+        </div>
         </div>
       </div>
       <div className="home-v">
