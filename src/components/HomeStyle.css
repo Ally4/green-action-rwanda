@@ -307,6 +307,13 @@
   margin: 20px;
 }
 
+.icon {
+  width: 50%;
+  height: 50%;
+}
+
+
+
   h1 {
     font-size: 48px;
     font-weight: 800;
