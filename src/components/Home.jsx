@@ -4,6 +4,11 @@ function Home() {
   return (
     <>
     <div>
+      <div >
+        <div className="image">
+
+        </div>
+      </div>
       <div className="home-v">
         <h1 className="vision-t">Vision</h1>
         <div className="vision">
@@ -25,11 +30,11 @@ function Home() {
       <div className="home">
         <h1 className="solution-t">Solutions</h1>
       <div className="solution">
-        <h2>BY USING GPS & BLOCKCHAIN SYSTEMS IN OUR PLATFORM AND WORKING WITH OAF OUTGROWERS AND SITE CORDINATORS WE WILL;</h2>
-        <div className="solution-p">TRACK AVOCADO TREES BY INCLUDING WHERE THE TREE IS LOCATED, TYPE OF THE TREE AND THE DAY IT WAS PLANTED HENCE HELP FARMERS GET ACCESS TO CARBON CREDITS AND FOLLOW UP ON THE SURVIVAL RATE OF THE SEEDLINGS PROVIDED BY OAF.</div>
-        <div className="solution-p1">EXPORT TRACEABLE HARVEST BY PUTTING A QR CODE STICKERS ON THE AVOCADOS</div>
-        <div className="solution-p2">COLLECT THE HARVEST AND STORE THEM INTO SOLAR POWER GENERATED COLD ROOMS WHICH WILL BE LOCATED NEAR THE FARMERS</div>
-        <div className="solution-p3">PROVIDE A MARKET FOR ALL AVOCADO VARIETES HARVEST</div>
+        <div className="solution-p">BY USING GPS & BLOCKCHAIN SYSTEMS IN OUR PLATFORM AND WORKING WITH OAF OUTGROWERS AND SITE CORDINATORS WE WILL;</div>
+        <div className="solution-p1">TRACK AVOCADO TREES BY INCLUDING WHERE THE TREE IS LOCATED, TYPE OF THE TREE AND THE DAY IT WAS PLANTED HENCE HELP FARMERS GET ACCESS TO CARBON CREDITS AND FOLLOW UP ON THE SURVIVAL RATE OF THE SEEDLINGS PROVIDED BY OAF.</div>
+        <div className="solution-p2">EXPORT TRACEABLE HARVEST BY PUTTING A QR CODE STICKERS ON THE AVOCADOS</div>
+        <div className="solution-p3">COLLECT THE HARVEST AND STORE THEM INTO SOLAR POWER GENERATED COLD ROOMS WHICH WILL BE LOCATED NEAR THE FARMERS</div>
+        <div className="solution-p4">PROVIDE A MARKET FOR ALL AVOCADO VARIETES HARVEST</div>
       </div>
       </div>
       <div className="home">
